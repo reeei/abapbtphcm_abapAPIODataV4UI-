@@ -1,0 +1,5 @@
+@EndUserText.label: '会計伝票Service definition'
+define service ZUI_C_JOURNALENTRY {
+  expose ZC_JournalEntry;
+  expose ZC_JournalEntryItem;
+}
